@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing Application</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>BILLING APPLICATION</h1>
+    <main>
+        <form action="">
+            <label for="Iname">Item Name:</label>
+            <input type="text" id="Iname" required>
+            <label for="Iprice">Item Price:</label>
+            <input type="number" id="Iprice" required>
+            <label for="Iqnt">Item Quantity:</label>
+            <input type="number" id="Iqnt" required>
+            <button id="add">ADD</button>
+        </form>
+        <hr> 
+        <section>
+            <table id="Table">
+                <tr>
+                    <th class="first"></th>
+                    <th>Item Name</th>
+                    <th>Item Price</th>
+                    <th>Item Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </table>
+        </section>
+        <aside>
+            <article>
+                <label for="tax">Add TAX(%):</label>
+                <input type="text" id="tax">
+                <button id="addTax">ADD</button>
+            </article>
+            <article class="total">
+                <h2 id="Tval">0/-</h2>
+                <p id="taxValue"></p>
+            </article>
+            <button>PRINT</button>
+        </aside>
+    </main>
+    <footer>
+        <p>@Created By ZAHOOR MOHAMMED</p>
+    </footer>
+</body>
+<script src="./script.js"></script>
+</html>

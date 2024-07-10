@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+body h1{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 3rem;
+    text-decoration: underline;
+    color: #404040;
+}
+
+main{
+    font-family: "Nunito", sans-serif;
+    height: 80vh;
+    width: 90%;
+    background-color: #a44aff37;
+    border-radius: 15px;
+}
+
+form{
+    height: 15%;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+form label, aside label{
+    font-weight: bold;
+    padding-left: 20px;
+}
+form input, aside input{
+    padding: 10px;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+form button, aside button{
+    padding: 10px;
+    width: 100px;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-left: 30px;
+    background-color: #a64aff;
+    color: #FFFFFF;
+    transition: .5s all;
+}
+section{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    /* border: 5px solid green; */
+    overflow: auto;
+}
+table{
+    width: 90%;
+}
+td, th{
+    text-align: start;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+a  img{
+    height: 25px;
+    width: 25px;
+}
+
+.first{
+    width: 10px;
+}
+
+aside{
+    /* border: 2px solid red; */
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.1rem;
+}
+.total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.7rem;
+    /* text-decoration: underline; */
+    color: #404040;
+}
+
+button:hover{
+    box-shadow: 2px 2px 5px  #404040;
+}
+
+footer{
+    height: 6vh;
+    width: 100%;
+    background-color: #a64aff;
+    font-family: "Ubuntu", sans-serif;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
