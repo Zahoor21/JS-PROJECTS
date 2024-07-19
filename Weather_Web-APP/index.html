@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather - WEB - APP</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./Images/cloud.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <form action="" id="myForm">
+            <input type="text" id="loc" placeholder="Enter Your Location">
+            <!-- <button id ="btn">Submit</button> -->
+             <input type="submit" class="button">
+        </form>
+        <section>
+            <img src="./Images/snow.png" alt="" id="chngImg">
+        </section>
+        <article>
+            <aside class="temp">
+                <div class="tempD">
+                <h1 id="tempVal"></h1><h1><sup>°</sup>C</h1>
+                </div> 
+                <p id="tempDet">Snow</p>
+            </aside>
+        </article>
+        <footer>
+            <aside>
+                <div class="img">
+                    <img src="./Images/WaterDrop.png" alt="" class="img" ">
+                </div> 
+                <div class="cont">
+                    <h1 id="humidVal">0%</h1>
+                    <p>Humidity</p>
+                </div> 
+            </aside>
+            <aside class="humid">
+                <div class="img">
+                    <img src="./Images/Wind-Speed.png" alt="">
+                </div>
+                <div class="cont">
+                    <h1 id="WindSpeed">0</h1>
+                    <p>Wind Speed</p>
+                </div>
+            </aside>
+        </footer>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
